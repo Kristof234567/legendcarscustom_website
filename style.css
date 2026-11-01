@@ -65,7 +65,7 @@ section{position:relative;padding-block:clamp(80px,10vw,130px)}
 
 /* hero */
 .hero{min-height:min(100svh,940px);display:flex;align-items:center;overflow:hidden;padding:120px 0 90px;background:var(--sky)}
-.hero .bg{position:absolute;inset:0;background:url(assets/street.webp) center 70%/cover no-repeat;transform:scale(1.06)}
+.hero .bg{position:absolute;inset:0;background:url(/street.webp) center 70%/cover no-repeat;transform:scale(1.06)}
 .hero::before{content:"";position:absolute;inset:0;z-index:1;background:
   radial-gradient(120% 90% at 0% 40%,rgba(47,176,255,.96) 0%,rgba(47,176,255,.78) 38%,rgba(47,176,255,.15) 70%,rgba(47,176,255,0) 100%),
   linear-gradient(180deg,rgba(227,246,255,0) 78%,#e3f6ff 100%)}
